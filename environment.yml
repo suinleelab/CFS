@@ -1,0 +1,9 @@
+name: cfs-env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - pytorch
+  - pytorch-cuda==11.8
+  - pytorch-lightning==1.9.3
